@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include/SDL2/",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/inc/**",
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/obj/**",
+                "${workspaceFolder}/bin/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

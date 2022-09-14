@@ -1,0 +1,798 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 24 00:35:09 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# makefile (from 'makefile', line 2)
+SRC_DIR := src
+# environment
+LC_NAME = vi_VN
+# environment
+LC_NUMERIC = vi_VN
+# environment
+VSCODE_CWD = /home/supnep
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = vi_VN
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'makefile', line 12)
+BINARY := bin/Background.o bin/Ball.o bin/BaseObject.o bin/Board.o bin/Game.o bin/Paddle.o bin/Player.o bin/main.o
+# default
+.VARIABLES := 
+# environment
+PWD = /home/supnep/Desktop/Udacity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/supnep/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/supnep/Desktop/Udacity
+# makefile (from 'makefile', line 1)
+INC_DIR := inc
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'bin/main.d', line 1)
+MAKEFILE_LIST := makefile bin/Background.d bin/Ball.d bin/BaseObject.d bin/Board.d bin/Game.d bin/Paddle.d bin/Player.d bin/main.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 73603
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/supnep:@/tmp/.ICE-unix/2167,unix/supnep:/tmp/.ICE-unix/2167
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = vi_VN
+# automatic
+^F = $(notdir $^)
+# makefile (from 'makefile', line 9)
+LDLIBS := -lSDL2 -lSDL2_image -lSDL2_ttf 
+# environment
+LC_TIME = vi_VN
+# environment
+INVOCATION_ID = d3e77032a98a4e96b453b112b4bc1cc7
+# environment
+USERNAME = supnep
+# environment
+LC_TELEPHONE = vi_VN
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = supnep
+# makefile (from 'makefile', line 7)
+CPPFLAGS := -Iinc -I/usr/include/SDL2 -MMD -MP
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := Breakout
+# environment
+SYSTEMD_EXEC_PID = 2186
+# environment
+DISPLAY = :1
+# environment
+USER = supnep
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1741
+# environment
+LC_MEASUREMENT = vi_VN
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 73603
+ 
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = vi_VN
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:33189
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/supnep
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'makefile', line 3)
+BIN_DIR := bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-78a08cea-1.70.2-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'makefile', line 13)
+DEPS := bin/Background.d bin/Ball.d bin/BaseObject.d bin/Board.d bin/Game.d bin/Paddle.d bin/Player.d bin/main.d
+# default
+SUFFIXES := 
+# makefile (from 'makefile', line 5)
+program_INCLUDE_DIRS := /usr/include/SDL2
+# makefile (from 'makefile', line 8)
+CXXFLAGS := -Wall
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'makefile', line 6)
+CC := g++
+# makefile (from 'makefile', line 11)
+SOURCES := src/Background.cpp src/Ball.cpp src/BaseObject.cpp src/Board.cpp src/Game.cpp src/Paddle.cpp src/Player.cpp src/main.cpp
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = vi_VN
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=7/173=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# RCS: could not be stat'd.
+# SCCS: could not be stat'd.
+# src (device 66308, inode 1315743): 18 files, no impossibilities.
+# . (device 66308, inode 933039): 11 files, no impossibilities.
+# bin (device 66308, inode 1318797): 18 files, no impossibilities.
+
+# 47 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+%:: %,v
+
+%:: RCS/%,v
+
+%:: RCS/%
+
+%:: s.%
+
+%:: SCCS/s.%
+
+# 5 implicit rules, 5 (100.0%) terminal.
+# Files
+
+/usr/include/SDL2/SDL_atomic.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Board.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:05.164788309
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+/usr/include/SDL2/SDL_events.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/main.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:06.16881948
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+ 
+bin/Paddle.o: src/Paddle.cpp src/Paddle.cpp inc/Paddle.h inc/BaseObject.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Paddle'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/Game.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Board.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Paddle.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_hidapi.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Board.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/main.o: src/main.cpp src/main.cpp inc/main.h inc/Game.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_ttf.h inc/Board.h inc/BaseObject.h inc/Paddle.h inc/Ball.h inc/Background.h inc/Player.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+# Not a target:
+src/Background.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_gesture.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Game.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:05.680804336
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+ 
+/usr/include/SDL2/SDL_sensor.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_version.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Game.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/BaseObject.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Background.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:04.13275619
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+/usr/include/SDL2/SDL_audio.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/BaseObject.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_metal.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_image.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_log.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_main.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_touch.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 23):
+	 $(RM) $(DEPS) $(BINARY) $ Breakout
+
+/usr/include/SDL2/SDL_ttf.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_system.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_keycode.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_thread.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_power.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_locale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Board.o: src/Board.cpp src/Board.cpp inc/Board.h inc/BaseObject.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Board'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+bin/Paddle.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:06.508830016
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+ 
+bin/BaseObject.o: src/BaseObject.cpp src/BaseObject.cpp inc/BaseObject.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'BaseObject'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+/usr/include/SDL2/SDL_blendmode.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Ball.o: src/Ball.cpp src/Ball.cpp inc/Ball.h inc/BaseObject.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Ball'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_platform.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_assert.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Background.o: src/Background.cpp src/Background.cpp inc/Background.h inc/BaseObject.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Background'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+/usr/include/SDL2/SDL_shape.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Ball.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Ball.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_keyboard.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Game.o: src/Game.cpp src/Game.cpp inc/Game.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_ttf.h inc/Board.h inc/BaseObject.h inc/Paddle.h inc/Ball.h inc/Background.h inc/Player.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Game'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+/usr/include/SDL2/SDL_quit.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_clipboard.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_misc.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_timer.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_render.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_endian.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Breakout: bin/Background.o bin/Ball.o bin/BaseObject.o bin/Board.o bin/Game.o bin/Paddle.o bin/Player.o bin/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 18):
+	$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@
+
+/usr/include/SDL2/SDL_gamecontroller.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_error.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+src/Player.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_joystick.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_filesystem.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/BaseObject.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:04.820777611
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+/usr/include/SDL2/SDL_scancode.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_stdinc.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_mouse.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_loadso.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Player.o: src/Player.cpp src/Player.cpp inc/Player.h /usr/include/SDL2/SDL_ttf.h /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_image.h inc/BaseObject.h /usr/include/SDL2/SDL.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'Player'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 21):
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -c $(OUTPUT_OPTION) $<
+
+/usr/include/SDL2/SDL_video.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Ball.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:04.472766776
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+makefile:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:31:24.716462
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+/usr/include/SDL2/SDL_hints.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Player.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Paddle.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/main.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+inc/Background.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_surface.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_haptic.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_rect.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_mutex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_messagebox.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Player.d:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-24 00:35:06.976844517
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 27):
+	
+
+/usr/include/SDL2/SDL_rwops.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/SDL2/SDL_pixels.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=88/1024=9%, Rehash=0, Collisions=61/999=6%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 140 / storage = 2430 B / avg = 17 B
+# current buf: size = 8162 B / used = 2430 B / count = 140 / avg = 17 B
+
+# strcache performance: lookups = 1440 / hit rate = 90%
+# hash-table stats:
+# Load=140/8192=2%, Rehash=0, Collisions=24/1440=2%
+# Finished Make data base on Wed Aug 24 00:35:09 2022
+
+ 

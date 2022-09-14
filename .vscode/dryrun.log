@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/supnep/Desktop/Udacity'
+make: 'Breakout' is up to date.
+make: Leaving directory '/home/supnep/Desktop/Udacity'
+ 
