@@ -35,7 +35,7 @@ Can be seen in each file except main.cpp. After creating object pointer of a cla
 
 ## Dependencies for running locally
 * make >= 4.1 (linux, mac) 3.81 (Windows)
-	* Linux: already installed bu default in most distros 
+	* Linux: already installed by default in most distros 
 * g++ >= 4.0
 	* Linux: `sudo apt install build-essential` 
               usually it is already installed by default in most distros
